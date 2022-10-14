@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>플렉스 예제3</title>
+    <style>
+        .fle{
+            display: flex;
+            background: #d9d6cd;
+            width: 100%;
+            height: 150px;
+            align-items: flex-start;
+        }
+        .fle div{
+            background: blue;
+            color: aliceblue;
+            flex: 1 1 30px;
+            margin: 25px;
+            }
+        #third{
+            align-self: flex-end;      
+        }
+    </style>
+</head>
+<body>
+    <div class="fle">
+        <div>flex</div>
+        <div>flex</div>
+        <div id="third">flex</div>
+        <div>flex</div>
+        <div>flex</div>
+    </div>
+    <div><br><a href="index.html"><img src="img/home.png" width="60" alt="그림없음"></a></div>
+</body>
+</html>

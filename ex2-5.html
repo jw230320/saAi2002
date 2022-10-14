@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>입력양식만들기</title>
+</head>
+
+<body>
+    <h1>가입양식</h1>
+    <form action="#">
+        성함 : <input type="text" pattern="[가-힣]{3}||[가-힣]{2}"><br>
+        전화번호 : <input type="tel" id="tel" pattern="[0-9]{10}"><br>
+        이메일 : <input type=text pattern="[a-z0-9]{1,}">@<input type="text" pattern="[a-z]{1,}">.<input type="text" size="3"{a-z}><br>
+<!--        이메일 이쁘게 만들기..-->
+        주소 : <input type="text"><br>
+        하고싶은말 <br> <textarea style="resize: none; width: 250px; height: 100px;"></textarea><br>
+        제출날자 : <input type="date"><br>
+        <input type="submit">
+
+    </form>
+    <div><br><a href="index.html"><img src="img/home.png" width="60" alt="그림없음"></a></div>
+</html>

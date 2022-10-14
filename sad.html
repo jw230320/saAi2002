@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .sam {
+
+            width: 0px;
+            height: 0px;
+            border-bottom: 240px solid #666666;
+            border-left: 0px solid transparent;
+            border-right: 240px solid transparent;
+            margin-top: 350px;
+        }
+        input:checked + .gong{
+            animation: move 4s ease-in infinite;
+        }
+
+        .gong {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 50px;
+            text-align: center;
+            
+        }
+        
+        
+        @keyframes move{
+            0% {
+                transform: translateY(0)
+            ;
+            }
+
+            30% {
+                transform: translateY(380px);
+            }
+            60%{
+                transform: translate(200px,585px)
+                    rotateZ(90deg);
+                
+            }
+            100%{transform: translate(600px,600px)
+                rotatez(240deg);}
+        
+            }
+    </style>
+</head>
+
+<body>
+   <input type="checkbox" >
+    <div class="gong">공</div>
+    <div class="sam"></div>
+</body></html>
