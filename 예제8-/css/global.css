@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 @import "reset.css";
 @import "variable.css";
-@import "nevigation-var.css";
+@import "navigation-bar.css";
 @import "mypage.css";
 @import "media-query.css";
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
