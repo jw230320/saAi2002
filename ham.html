@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        :root{
+            --body-bg: ;
+            --hamburger-bg:#fff;
+        }
+        html,body{
+            height: 100%
+        }
+        body{
+            background-color: var(--body-bg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hamburger-title{
+            color: red;
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
+        .hamburger-container{
+            display: inline-block;
+            position: relative;
+            width: 100px;
+            height: 100px;
+            background-color: var(--hamburger-bg);
+        }
+        .hamburger,
+        .hamburger::before,
+        .hamburger::after{
+            position: absolute;
+            width: 100%;
+            height: 10px;
+            transition: 0.5s;
+            background: white;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <span class="hamburger-title">my hamburger
+        <label>
+            <div class="hambuger-container">
+                <input type="checkbox" class="toggle">
+                <div class="hambuger"></div>
+            </div>
+        </label>
+    </span>
+</body></html>
