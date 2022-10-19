@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --hamburger-bg: black;
+        }
+        .hamburger-container{
+            width: 100px;
+            height: 100px;
+            background: var(--hamburger-bg);
+        }
+        .hamburger{
+            width: 100%;
+            height: 10px;
+            background: white;
+        }
+        .hamburger::before,
+        .hamburger::after{
+            content: "";
+        }
+    </style>
+</head>
+<body>
+    <label for="">
+        <span class="hamburger-title">My Hamburger</span>
+        <div class="hamburger-container">
+            <input type="checkbox" class="toggle">
+            <div class="hambergur"></div>
+        </div>
+    </label>
+</body>
+</html>

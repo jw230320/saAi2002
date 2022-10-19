@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import "reset.css";
+@import "variable.css";
+@import "nevigation-var.css";
+@import "mypage.css";
+@import "media-query.css";
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+* {
+    box-sizing: border-box;
+      
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-purple);
+    color: white;
+}
+input{
+    border: none;
+    outline: none;
+    appearance: none;
+}
+.display-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position-relative{
+    position: relative;
+}
